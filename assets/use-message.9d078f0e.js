@@ -1,0 +1,10 @@
+import{c as g,b as l,e as d,j as u,d as v,u as b,b5 as y,m as c,p as w,L as C,h as m,q as z,i as _,b6 as $,O as S}from"./index.d8f797c6.js";import{f as j}from"./Space.28e34898.js";const I=g("icon",`
+ height: 1em;
+ width: 1em;
+ line-height: 1em;
+ text-align: center;
+ display: inline-block;
+ position: relative;
+ fill: currentColor;
+ transform: translateZ(0);
+`,[l("color-transition",{transition:"color .3s var(--n-bezier)"}),l("depth",{color:"var(--n-color)"},[d("svg",{opacity:"var(--n-opacity)",transition:"opacity .3s var(--n-bezier)"})]),d("svg",{height:"1em",width:"1em"})]),N=Object.assign(Object.assign({},u.props),{depth:[String,Number],size:[Number,String],color:String,component:Object}),O=v({_n_icon__:!0,name:"Icon",inheritAttrs:!1,props:N,setup(e){const{mergedClsPrefixRef:o,inlineThemeDisabled:t}=b(e),i=u("Icon","-icon",I,y,e,o),r=c(()=>{const{depth:s}=e,{common:{cubicBezierEaseInOut:a},self:h}=i.value;if(s!==void 0){const{color:p,[`opacity${s}Depth`]:f}=h;return{"--n-bezier":a,"--n-color":p,"--n-opacity":f}}return{"--n-bezier":a,"--n-color":"","--n-opacity":""}}),n=t?w("icon",c(()=>`${e.depth||"d"}`),r,e):void 0;return{mergedClsPrefix:o,mergedStyle:c(()=>{const{size:s,color:a}=e;return{fontSize:j(s),color:a}}),cssVars:t?void 0:r,themeClass:n==null?void 0:n.themeClass,onRender:n==null?void 0:n.onRender}},render(){var e;const{$parent:o,depth:t,mergedClsPrefix:i,component:r,onRender:n,themeClass:s}=this;return!((e=o==null?void 0:o.$options)===null||e===void 0)&&e._n_icon__&&C("icon","don't wrap `n-icon` inside `n-icon`"),n==null||n(),m("i",z(this.$attrs,{role:"img",class:[`${i}-icon`,s,{[`${i}-icon--depth`]:t,[`${i}-icon--color-transition`]:t!==void 0}],style:[this.cssVars,this.mergedStyle]}),r?m(r):this.$slots)}});function P(){const e=_($,null);return e===null&&S("use-message","No outer <n-message-provider /> founded. See prerequisite in https://www.naiveui.com/en-US/os-theme/components/message for more details. If you want to use `useMessage` outside setup, please check https://www.naiveui.com/zh-CN/os-theme/components/message#Q-&-A."),e}export{O as N,P as u};
