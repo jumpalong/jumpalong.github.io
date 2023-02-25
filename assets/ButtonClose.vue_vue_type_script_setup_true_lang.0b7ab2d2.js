@@ -1,4 +1,4 @@
-import{e as o,c as b,b as l,P as H,A as I,B as q,d as v,u as D,j as u,bm as F,l as K,m as h,n as g,p as W,h as X,a3 as Y,X as f,a4 as Z,a5 as G,Y as J,Z as m,_ as p}from"./index.d8f797c6.js";import{N as Q}from"./use-message.9d078f0e.js";import{N as U}from"./Space.28e34898.js";const oo=o([b("table",`
+import{e as o,c as b,b as l,P as H,A as I,B as q,d as v,u as D,j as u,bm as F,l as K,m as h,n as g,p as W,h as X,a3 as Y,X as f,a4 as Z,a5 as G,Y as J,Z as m,_ as p}from"./index.493371bf.js";import{N as Q}from"./use-message.e08aff4e.js";import{N as U}from"./Space.a925bc50.js";const oo=o([b("table",`
  font-size: var(--n-font-size);
  font-variant-numeric: tabular-nums;
  line-height: var(--n-line-height);
